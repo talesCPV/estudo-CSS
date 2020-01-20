@@ -12,6 +12,18 @@ $(document).ready(function(){
 
 	});
 
+	$("#edtBusca").click(function(){	
+		event.stopPropagation();
+	});
+
+    $("#edtBusca").keypress(function(e){
+        if(e.which == 13){
+            var inputVal = $(this).val();
+            alert("You've entered: " + inputVal);
+            $('.main_menu ').css({display: 'none'});
+        }
+    });	
+
 });
 
 // VALIDAÇÕES

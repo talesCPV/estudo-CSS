@@ -1,52 +1,3 @@
-html, body {
-  height: 100%;
-  min-height: 100%;
-}
-
-body {
-  font: 15px arial;
-  color: rgb(103, 119, 134);
-  background-color: #EFF0F1;
-}
-
-.wrapper {
-  height: 95%;
-  min-height: 95%;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-
-.wrapper div {
-  padding: 40px;
-  border: 1px solid rgba(0, 0, 0, .3);
-  height:auto;
-  align-items: center;
-  
-}
-
-.impLogin input,.impLogin button,.impLogin label{
-    display: block;
-    margin: 20px;
-}
-
-.impLogin button{
-    height: 30px;
-    width: 100px;
-    color: rgb(88, 21, 49);
-    border: 1px solid rgba(0, 0, 0, .3);
-    margin: auto;
-}
-
-.impLogin button:hover{
-  transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-  transform: scale(1.2); 
-  cursor: pointer;
-}
-
 
 /* UPBAR E MENU */
 
@@ -62,27 +13,6 @@ body {
   right: 0;
   height: 35px;
   line-height:35px;
-}
-
-.imgMenu{
-  width: : 40px;
-  height: 40px;
-}
-
-.imgMenu:hover{
-  transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-  transform: scale(1.3); 
-  cursor: pointer;
-}
-
-#edtBusca{
-  width: 93%;
-  height: 30px;
-  padding: 0% 5%;
-  margin: auto;
-  background: #434259;
-  color: #dad8d8;
-  border: 1px solid;
 }
 
 .left_bar{
@@ -101,8 +31,6 @@ body {
 .main_menu{
   width: 200px;
   height: 400px;
-  position: fixed; 
-    top: 35px ; 
   background: #434259;
   margin: 0px 0px 0px -15px;
 
