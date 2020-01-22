@@ -1,0 +1,25 @@
+{
+	"sessoes": [
+	 	{"modulo": "teste",
+		 "link": "none",
+		 "perm": 10,
+		 "itens": [	{
+						"nome": "item 01",
+						"link": "pag1.php",
+						"perm": 10
+					}
+		 		  ]
+		},
+	 	{"modulo": "dois",
+		 "link": "none",
+		 "perm": 4,
+		 "itens": [	{
+						"nome": "item 02",
+						"link": "pag12.php",
+						"perm": 4
+					}
+		 		  ]
+		}		
+	]
+	
+}
